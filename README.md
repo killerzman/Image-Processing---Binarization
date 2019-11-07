@@ -1,0 +1,3 @@
+# imageprocessing-binarization
+
+![](example.gif)
