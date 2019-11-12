@@ -136,7 +136,7 @@ class BinaryApp(wx.App):
 			newH = self.imgMaxSize
 			newW = self.imgMaxSize * w / h
 
-		img = img.Scale(newW, newH)
+		img = img.Scale(int(newW), int(newH))
 
 		#set the new images
 		self.originalImg = img
